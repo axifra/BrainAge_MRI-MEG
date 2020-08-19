@@ -15,6 +15,6 @@ McGill University, Montreal, Canada
 
 Please do not hesitate to contact us if you have any questions related to the use of these scripts.
 
-E-mail: axifra@gmail.com
+E-mail: axifra@gmail.com, arna.ghosh@mail.mcgill.ca
 
 Date: 19 August 2020
