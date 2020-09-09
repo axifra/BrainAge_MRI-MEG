@@ -15,10 +15,10 @@ Codes for the MEG data analysis using the MNE toolbox (https://mne.tools/):
 - Note: The codes do not use parallel processing but it is recommended as they can take a long time to run. You can take a look at the codes for the predictive models for examples on how to implement parallel processing.
 
 Codes for MRI data processing using FSL (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki):
-- [fsl_cmds.py](fsl_cmds.py): Automating the pipeline for brain extraction, linear and non-linear warping to register to the MNI152 template brain. Implements multiprocessing to parallely process multiple subjects from the CamCan dataset. 
-- [prep_struc_feats.py](prep_struc_feats.py): Prepares csv/npz files for particular features -- GM, WM, CSF, cortical only, subcortical only. Relies on command line arguments for selecting features to extract and the output file name.
-- Reference files/masks provided in [standard_masks](standard_masks/) folder. _Missing: MNI152_T1_2mm_brain.nii.gz_
-- [project_loadings_MNI.py](project_loadings_MNI.py): Project the CCA loadings for each feature to the MNI152 template brain space for 3D visualization.
+- [fsl_cmds.py](/mri/fsl_cmds.py): Automating the pipeline for brain extraction, linear and non-linear warping to register to the MNI152 template brain. Implements multiprocessing to parallely process multiple subjects from the CamCan dataset. 
+- [prep_struc_feats.py](/mri/prep_struc_feats.py): Prepares csv/npz files for particular features -- GM, WM, CSF, cortical only, subcortical only. Relies on command line arguments for selecting features to extract and the output file name.
+- Reference files/masks provided in [standard_masks](/mri/standard_masks/) folder. _Missing: MNI152_T1_2mm_brain.nii.gz_
+- [project_loadings_MNI.py](/mri/project_loadings_MNI.py): Project the CCA loadings for each feature to the MNI152 template brain space for 3D visualization.
 
 Codes for brain age prediction using scikit-learn (https://scikit-learn.org/):
 - [GPR.py](/Age_Prediction/GPR.py): Fits a GPR model on raw features
