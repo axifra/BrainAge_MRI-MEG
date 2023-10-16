@@ -25,7 +25,7 @@ Codes for brain age prediction using scikit-learn (https://scikit-learn.org/):
 - [GPR_similarity.py](/Age_Prediction/GPR_similarity.py): Fits a GPR model on the similarity metric calculated with respect to the subjects in training dataset
 - [PCA_GPR.py](/Age_Prediction/PCA_GPR.py): Fits a GPR model on the (top) principal components of the feature matrix
 - [CCA_GPR.py](/Age_Prediction/CCA_GPR.py): Fits a GPR model on the canonical correlation component obtained from the covariance of features and age
-- [CCA_BS.py](/Age_Prediction/CA_BS.py): Retrieves the bootstrapped ratio of loadings corresponding to each feature in the CCA model
+- [CCA_BS.py](/Age_Prediction/CCA_BS.py): Retrieves the bootstrapped ratio of loadings corresponding to each feature in the CCA model
 
 # Authors
 Alba Xifra-Porxas & Arna Ghosh
