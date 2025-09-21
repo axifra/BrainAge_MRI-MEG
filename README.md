@@ -27,6 +27,13 @@ Codes for brain age prediction using scikit-learn (https://scikit-learn.org/):
 - [CCA_GPR.py](/Age_Prediction/CCA_GPR.py): Fits a GPR model on the canonical correlation component obtained from the covariance of features and age
 - [CCA_BS.py](/Age_Prediction/CCA_BS.py): Retrieves the bootstrapped ratio of loadings corresponding to each feature in the CCA model
 
+For the nested cross-validation scripts, please refer to the corresponding files under [the nested_CV folder](Age_Prediction/nested_CV).
+
+## Notes
+
+- The final list of 613 subjects used from the Cam-CAN dataset is available [here](Misc/CamCAN_subjects.txt).
+- The MEG preprocessing reports are made available through [Figshare](https://figshare.com/collections/MEG_preprocessing_reports_of_the_article_Estimating_brain_age_from_structural_MRI_and_MEG_data_Insights_from_dimensionality_reduction_techniques_/5275385).
+
 # Authors
 Alba Xifra-Porxas & Arna Ghosh
 
